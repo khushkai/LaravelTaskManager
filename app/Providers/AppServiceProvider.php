@@ -3,6 +3,9 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use App\Models\User;
+use App\Models\Task;
+
 
 class AppServiceProvider extends ServiceProvider
 {

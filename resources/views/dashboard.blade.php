@@ -6,7 +6,8 @@
     <title>Dashboard</title>
 </head>
 <body>
-    <h1>Task list</h1>
+<a href="{{ route('task.list') }}">Task List</a>
+   
     <form action="{{ route('logout') }}" method="POST">
     @csrf
     <button type="submit">Logout</button>
